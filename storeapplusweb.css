@@ -1,0 +1,89 @@
+body{
+	background-image: url("https://cdn-images-1.medium.com/max/1608/1*TIUBGdXh5IhB9b6ITCL2gw.jpeg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-filter: invert(75%);
+}
+#header{
+	top: 0;
+	right: 0;
+	position: fixed;
+	height: 20%;
+	width:100%;
+	background-color:white;
+}
+a:link{
+	color: black;
+}
+a:hover{
+	color: red;
+}
+.logo{
+    display: inline-block;
+	font-family: "Arial Narrow", Arial, sans-serif;
+	font-size: 250%;
+	font-weight: bold;
+	margin-top: 22px;
+}
+#logo_image{
+	width: 55px;
+	height: 55px;
+}
+.menu{
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 150%;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	float: right;
+	margin-top: 35px;
+}
+li{
+	display: inline-block;
+	padding: 14px;
+}
+#intro{
+	top: 130px;
+	height: 370px;
+	width: 100%;
+	background-color: white;
+	position: relative;
+	max-height: 390px; 
+	overflow: hidden;
+	border-bottom-width: 10px;
+	border-bottom-color: red;
+}
+#intro_img{
+	width: 820px;
+}
+#intro h2{
+  padding: 17px;
+  font-weight: heavy;
+}
+#intro p { 
+  line-height: 2; 
+  font-size: 18px;
+}
+.curve { 
+	width: 33%; 
+	height: auto;
+	min-width: 150px;
+	float: left;
+	margin-right:2rem; 
+	border-radius: 50%;
+	-webkit-shape-outside:circle();
+	shape-outside:circle();
+}
+
+.info {
+	top: 0px;
+	display: block;
+	line-height: 1.8; 
+}
+.redirects{
+	top: 500px;
+	margin: 100px;
+	position: relative;
+	width: 500px;
+}
